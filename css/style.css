@@ -209,7 +209,7 @@ header .head-left{
 	position:relative;
 	width:200px;
 	margin:0 auto;
-	opacity:0;
+	opacity:1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	animation-duration: 1s;
     animation-delay:1s;
@@ -291,7 +291,7 @@ header .head-right .head-item p{
 
 header .head-right .social{
 	margin-top:20px;
-	opacity:0;
+	opacity:1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	animation-duration: 1s;
     animation-delay:1s;
@@ -339,7 +339,7 @@ header .head-right .head-obj .obj-icon{
 	width:40px;
 	height:40px;
 	line-height:110px;
-	opacity:0;
+	opacity:1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	animation-duration: 1s;
     animation-delay:1s;
@@ -405,7 +405,7 @@ header .head-right .head-obj p{
 }
 
 .education .tab-content{
-	opacity:0;
+	opacity:1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	animation-duration: 1s;
     animation-delay:0s;
@@ -452,7 +452,7 @@ header .head-right .head-obj p{
 
 .skills .skill-item{
 	margin-bottom:25px;
-	opacity:0;
+	opacity:1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	animation-duration: 1s;
     animation-delay:0s;
@@ -493,7 +493,7 @@ header .head-right .head-obj p{
 .experience .exp-item{
 	/*margin-top:15px;*/
 	margin-bottom:20px;
-	opacity:0;
+	opacity:1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	animation-duration: 1s;
     animation-delay:0s;
@@ -508,10 +508,26 @@ header .head-right .head-obj p{
 }
 
 .experience .exp-item .item-img{
-	/*height:55px;*/
+	height:90px;
 	width:150px;
 	margin:0 auto;
-	margin-bottom:5px;
+	margin-bottom: 10px;
+}
+
+.experience .exp-item .item-img .img-responsive {
+	height: 100%;
+	display: inline-block;
+}
+
+.experience .exp-item .item-img .img-responsive.gp {
+  height: 60%;
+  margin-top: 20px;
+}
+
+
+.experience .exp-item .item-img .img-responsive.fantasy {
+    height: initial;
+    margin-top: 15px;
 }
 
 .experience .exp-item .item-content{
@@ -587,7 +603,7 @@ header .head-right .head-obj p{
 	width:180px;
 	margin-top:30px;
 	margin-bottom:30px;
-	opacity:0;
+	opacity:1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	animation-duration: 1s;
     animation-delay:0s;
